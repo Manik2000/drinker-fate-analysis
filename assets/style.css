@@ -1,0 +1,140 @@
+#page {
+    display: grid;
+    column-gap: no;
+}
+
+#left_col {
+    width: 60%;
+    grid-column: 1;
+    display: grid;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#right_col {
+    width: 60%;
+    grid-column: 2;
+    display: grid;
+    margin-right: 0px;
+    padding-right: 0%;
+}
+
+#graph_parent {
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#live-graph {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#params {
+    width: 120%;
+    font-size: 15px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 40%;
+}
+
+#label {
+    font-size: 30px;
+    text-align: center;
+    grid-row: 1;
+    padding-bottom: 10%;
+}
+
+#d_label {
+    font-size: 15px;
+    text-align: center;
+    grid-row: 2;
+}
+
+#d {
+    font-size: 15px;
+    text-align: center;
+    grid-row: 3;
+} 
+
+#v_d_label {
+    font-size: 10px;
+    text-align: center;
+    font-size: 15px;
+    grid-row: 4; 
+}
+
+#v_d {
+    font-size: 15px;
+    text-align: center;
+    font-size: 15px;
+    grid-row: 5;
+}
+
+#v_m_label {
+    font-size: 10px;
+    text-align: center;
+    font-size: 15px;
+    grid-row: 6;
+}
+
+
+#v_m {
+    font-size: 15px;
+    text-align: center;
+    font-size: 15px;
+    grid-row: 7;
+}
+
+#v_M_label {
+    font-size: 10px;
+    text-align: center;
+    font-size: 15px;
+    grid-row: 8;
+}
+
+#v_M {
+    font-size: 15px;
+    text-align: center;
+    font-size: 15px;
+    grid-row: 9;
+}
+
+#traffic_label {
+    grid-row: 10;
+    text-align: center;
+    margin-top: 12%;
+    font-size: 15px;
+    
+}
+
+#slider {
+    width: 100%;
+    font-size: 5px;
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-right: 2%;
+    grid-row: 11;
+}
+
+#simulate {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 50%;
+    font-size: 15px;
+    grid-row: 12;
+}
+
+#download {
+    grid-row: 13;
+    width: 100%;
+}
+
+#download_button {
+    height: 8%;
+    width: 100%;
+    margin-bottom: 12%;
+}
