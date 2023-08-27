@@ -1,5 +1,5 @@
 import numpy as np
-from utils import Drinker, Car, generate_arrivals
+from scripts.utils import Drinker, Car, generate_arrivals
 
 
 def simulate(d, v_d, dist1, dist2, v_m, v_M):

@@ -5,9 +5,9 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 
-import simulation as sim
-from animation import *
-from utils import Unif
+import scripts.simulation as sim
+from scripts.animation import *
+from scripts.utils import Unif
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 

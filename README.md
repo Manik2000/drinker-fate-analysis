@@ -17,9 +17,9 @@ Cars appear at random, according to mixed Poisson process jump times (distributi
 
 * `analysis.ipynb` contains conclusions from many simulations perfomed for different sets of parameters.
 * `app.py` implements Dash application in which user can run the simluations for chosen parameters and check the fate of the drinker with their own eyes thanks to animation.
-* `animation.py` contains a function creating Plotly animation.
-* `utils.py` contains classes `Car` and `Drinker` and mixed Poisson generating functions.
-* `simulation.py` contains function that returns the trajectories of a drinker and cars for chosen simulation parameters.
+* `scripts/animation.py` contains a function creating Plotly animation.
+* `scripts/utils.py` contains classes `Car` and `Drinker` and mixed Poisson generating functions.
+* `scripts/simulation.py` contains function that returns the trajectories of a drinker and cars for chosen simulation parameters.
 
 ---
 ## Running the app
