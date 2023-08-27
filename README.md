@@ -16,4 +16,12 @@ Cars appear at random, according to mixed Poisson process jump times (distriubti
 * `app.py` implements Dash application in which user can run the simluations for chosen parameters and check the fate of the drinker with their own eyes thanks to animation.
 * `animation.py` contains a function creating Plotly animation.
 * `utils.py` contains classes required for perfroming simulations and mixed Poisson generating functions.
-* `simulation.py` contains function that returns the trajectories of a drinker and cars for chosen simulation parameters. 
+* `simulation.py` contains function that returns the trajectories of a drinker and cars for chosen simulation parameters.
+
+---
+## Running the app
+
+If you want to run the Dash application, please install packages listed in `requirements.txt` and run command
+```shell
+python app.py
+```
