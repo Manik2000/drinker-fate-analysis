@@ -1,13 +1,13 @@
-import dash
-from dash.dependencies import Output, Input
-import dash_core_components as dcc
-import dash_html_components as html
-import simulation as sim
 import io
 from base64 import b64encode
-from utils import Unif
-from animation import *
 
+import dash
+from dash import dcc, html
+from dash.dependencies import Input, Output
+
+import simulation as sim
+from animation import *
+from utils import Unif
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
